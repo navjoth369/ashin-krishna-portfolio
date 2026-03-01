@@ -1,0 +1,66 @@
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000920;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: auto; 
+}
+
+
+
+
+.container {
+  padding: 2rem;             
+  max-width: 1200px;
+  margin: auto;
+  background-color: black;    
+}
+
+
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.4s ease-in-out;
+}
+
+.img-fluid:hover {
+  transform: scale(1.03);
+}
+
+
+
+.hey {
+  font-size: 30px;
+  font-weight: bolder;
+  color: rgb(208, 11, 11);
+}
+
+.name-title {
+  font-size: clamp(40px, 10vw, 100px);
+  font-weight: bolder;
+  color: white;
+}
+
+.orange {
+  font-size: clamp(30px, 12vw, 80px);
+  font-weight: bolder;
+  color: rgb(136, 255, 0);
+}
+
+.tagline {
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+.dark-bg {
+  background-color: black;
+}
+
+
