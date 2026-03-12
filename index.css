@@ -215,9 +215,11 @@ a {
    ------------------------- */
 
 @media (max-width: 1024px) {
-  .main-title {
-    font-size: 3.2rem;
-  }
+ .profile {
+   width: 90%;
+   max-width: 420px;
+ }
+}
 
   .name {
     font-size: 1.8rem;
@@ -493,9 +495,9 @@ section {
 }
 
 .project-image img {
-    width: 300px;
-    height: 200px;
-    object-fit: cover;
+ width: 100%;
+ max-width: 300px;
+ height: auto;
 }
 
 .project-overlay {
@@ -643,18 +645,19 @@ section {
 }
 
 .footer-content {
-    color: #fff;
-    font-size: 0.9rem;
-    font-weight: 300;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-p{
-    color: #fffefe;
-    font-size: 0.9rem;
-    padding-top: 15px;
+ color: #fff;
+ font-size: 0.9rem;
+ font-weight: 300;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 30px;
 }
+
+.footer-content p{
+ color: #fffefe;
+ font-size: 0.9rem;
+ padding-top: 15px;
 }
 
 .social-links {
